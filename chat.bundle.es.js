@@ -4587,7 +4587,7 @@ function u3(e) {
   return Ke(e) ? document.querySelector(e) : e;
 }
 const Ro = {
-  webhookUrl: "http://localhost:5678",
+  webhookUrl: "https://reachmaxmedia.app.n8n.cloud/webhook/baaa5787-20e4-4adb-b2e8-1688f3c9f59e/chat",
   webhookConfig: {
     method: "POST",
     headers: {}
@@ -4599,14 +4599,15 @@ const Ro = {
   chatSessionKey: "sessionId",
   defaultLanguage: "en",
   showWelcomeScreen: !1,
-  initialMessages: ["Hi there! 👋", "My name is Isaac. How can I assist you today?"],
+  initialMessages: [    "👑 Welcome to King Cellular!",
+    "I’m Isaac. Need a screen fix or get a repair appointment today? I’ve got you!"],
   i18n: {
     en: {
-      title: "Hi there! 👋",
-      subtitle: "Start a chat. We're here to help you 24/7.",
-      footer: "",
+      title: "👑 King Cellular Chat",
+      subtitle: "Book a repair or ask a question — I’ve got you.",
+      footer: "1022 E Santa Fe St, Olathe, KS · (913) 839-1963",
       getStarted: "New Conversation",
-      inputPlaceholder: "Type your question..",
+      inputPlaceholder: "Tell me your device and issue…",
       closeButtonTooltip: "Close chat"
     }
   },
@@ -27995,3 +27996,4 @@ export {
   _4e as createChat
 
 };
+
